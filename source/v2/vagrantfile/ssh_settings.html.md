@@ -32,7 +32,8 @@ insecure private key that ships with Vagrant, since that is what most
 public boxes use. A provider-detected private key will override this setting.
 To force a certain private key, use `config.ssh.private_key_path`. The
 private key format should be an OpenSSH private key format (as opposed
-to PuTTY keys and such).
+to PuTTY keys and such). Also note that keys protected by passphrases 
+will not work.
 
 <hr>
 
